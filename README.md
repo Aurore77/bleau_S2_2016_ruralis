@@ -13,8 +13,8 @@ ruralis
 1. **SSH** git@github.com:WildCodeSchool/bleau_S2_2016_ruralis.git
 2. **HTTPS** https://github.com/WildCodeSchool/bleau_S2_2016_ruralis.git
 3. cd bleau_S2_2016_ruralis
-4. composer install
-5. php app/console doctrine:database:create
+4. php app/console doctrine:database:create
+5. composer install
 6. php app/console doctrine:schema:update --force
 7. php app/console asset:install
 8. mkdir -p web/uploads/images
